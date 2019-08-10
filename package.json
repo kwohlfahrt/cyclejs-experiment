@@ -1,0 +1,20 @@
+{
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc --build",
+    "start": "parcel start src/index.html"
+  },
+  "dependencies": {
+    "@cycle/dom": "^22.3.0",
+    "@cycle/rxjs-run": "^10.2.0",
+    "rxjs": "^6.5.2",
+    "snabbdom-pragma": "^2.8.0",
+    "ws": "^7.1.1"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.3",
+    "typescript": "^3.5.3"
+  }
+}

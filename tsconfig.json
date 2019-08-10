@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+	"module": "commonjs",
+	"target": "es6",
+	"jsx": "react",
+	"jsxFactory": "Snabbdom.createElement",
+	"noImplicitAny": true,
+	"noImplicitReturns": false,
+	"sourceMap": true,
+	"rootDir": "src",
+	"outDir": "build",
+	"moduleResolution": "node",
+	"strict": true,
+    },
+    "include": ["src"],
+}
